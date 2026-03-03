@@ -328,13 +328,22 @@ cargo fmt
 ```
 .
 ├── src/
-│   ├── drones/                  # Drone node implementations
-│   ├── clients/                 # Web and Chat clients
-│   ├── servers/                 # Content and Communication servers
-│   ├── simulation_controller/   # Runtime topology controller & visualization
-│   └── protocols/               # Packet formats and communication protocols
-├── Cargo.toml
-├── Cargo.lock
+│   ├── clients_gio/         # Client implementation (variant 1)
+│   ├── clients_sam/         # Client implementation (variant 2)
+│   ├── server/              # Communication & content server logic
+│   ├── simulation_control/  # Runtime topology controller
+│   ├── test/                # Testing modules
+│   ├── initializer.rs       # Network initialization logic
+│   ├── main.rs              # Entry point
+│   ├── message.rs           # Packet/message definitions
+│   ├── network_edge.rs      # Network edge abstraction
+│   └── routing.rs           # Source routing logic
+│
+├── inputs/                  # Simulation configuration files
+├── getdroned_logs/          # Runtime logs
+├── image.html               # Visualization / UI component
+├── Cargo.toml               # Project configuration
+├── Cargo.lock               # Dependency lock file
 └── README.md
 ```
 
