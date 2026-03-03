@@ -141,18 +141,6 @@ The system handles:
 
 ---
 
-## 🔄 Communication Model
-
-- Bidirectional communication
-- Implemented using `crossbeam` channels
-- Each node runs in its own Rust thread
-- Nodes listen to:
-  - Packet channel
-  - Simulation command channel
-- Uses `select!` macro for multi-channel handling
-
----
-
 ## 🚀 Running the Project
 
 Clone the repository:
