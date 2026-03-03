@@ -1,0 +1,7 @@
+src/test/contents_inputs/media_files/esempio.jpg
+src/test/contents_inputs/media_files/bronto.png
+src/test/contents_inputs/media_files/charmander.png
+src/test/contents_inputs/media_files/deer.png
+src/test/contents_inputs/media_files/leone.png
+src/test/contents_inputs/media_files/mario.png
+src/test/contents_inputs/media_files/squirtle.png
